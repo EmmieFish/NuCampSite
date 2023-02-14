@@ -79,3 +79,9 @@ header h2 {
 .header-text {
     z-index: 10;
 }
+
+.tab-content {
+    border: 2px solid rgb(164, 224, 236);
+    border-top: none;
+    padding: 10px;
+}
