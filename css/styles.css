@@ -97,3 +97,10 @@ header h2 {
 .carousel {
     border: solid rgb(206, 206, 206)
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
