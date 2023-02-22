@@ -1,0 +1,106 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h3 {
+    color: rgb(53, 186, 204);
+}
+
+h2 {
+    color: rgb(70, 86, 179);
+}
+
+h1 {
+    color: rgb(48, 165, 154);
+}
+
+header h1 {
+    color: rgb(25, 61, 139);
+}
+
+header h2 {
+    color: rgb(70, 142, 190);
+}
+
+.site-footer {
+    background-image: linear-gradient(rgb(184, 134, 231), rgb(142, 108, 255));
+    padding: 40px 0;
+    color: rgb(104, 46, 157);
+    font-weight: bold;
+}
+
+.site-footer h5 {
+    color: rbg(104, 46, 157);
+    font-weight: bolder;
+}
+
+.site-footer a {
+    color: rgb(228, 220, 245);
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(139, 245, 213), rgb(124, 208, 237), rgb(107, 214, 146));
+    background-attachment: absolute;
+    background-position: top 0px left 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(8, 135, 163);
+    margin: 0;
+}
+
+.gradient-card-header-color {
+    background-image: linear-gradient(to right, rgb(119, 235, 134), rgb(52, 160, 223));
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(234, 40, 120), rgb(236, 121, 26));
+}
+
+.header-image {
+    position: fixed;
+    top: -100px;
+    left: -110px;    
+    width: 150%;
+    z-index: 2;
+}
+
+.header-text {
+    z-index: 10;
+}
+
+.tab-content {
+    border: 2px solid rgb(164, 224, 236);
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h3 {
+    color: white;
+}
+
+.carousel {
+    border: solid rgb(206, 206, 206)
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
