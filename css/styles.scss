@@ -1,4 +1,4 @@
-$color-primary: #3046C5;
+$color-primary: #39198b;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
@@ -21,7 +21,7 @@ h3 {
 }
 
 h2 {
-    color: rgb(70, 86, 179);
+    color: $color-primary;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 }
 
 header h1 {
-    color: rgb(25, 61, 139);
+    color: $color-primary;
 }
 
 header {
@@ -37,7 +37,7 @@ header {
         color: rgb(70, 142, 190);
     }
     h1 {
-        color: rgb(25, 61, 139);
+        color: $color-primary;
     }
 }
 
