@@ -8,19 +8,19 @@ h3 {
   color: #35bacc; }
 
 h2 {
-  color: #4656b3; }
+  color: #39198b; }
 
 h1 {
   color: #30a59a; }
 
 header h1 {
-  color: #193d8b; }
+  color: #39198b; }
 
 header h2 {
   color: #468ebe; }
 
 header h1 {
-  color: #193d8b; }
+  color: #39198b; }
 
 .site-footer {
   background-image: linear-gradient(#b886e7, #8e6cff);
@@ -86,3 +86,19 @@ header h1 {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #a65eca; }
+
+#reserveModal h3 {
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #8bcc63; }
+
+#loginModal h3 {
+  color: white; }
+
+.blue-button {
+  background-color: #3f9cda;
+  color: white; }

@@ -8,7 +8,7 @@
     "lite": "lite-server",
     "clean": "rimraf dist",
     "scss": "node-sass -o css/ css/",
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",

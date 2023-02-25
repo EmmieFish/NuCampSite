@@ -32,8 +32,7 @@
                     <h2 class="header-text">a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class="btn btn-info btn-lg text-nowrap" data-toggle="modal"
-                        data-target="#reserveModal">
+                    <a role="button" class="btn btn-info btn-lg text-nowrap" id="reserveButton">
                         <!-- <a href="#reserveForm" role="button" class="btn btn-info btn-lg text-nowrap" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Or call us at <br /><strong>1-206-555-1234</strong>"> -->
                         Reserve Campsite
                     </a>
@@ -45,8 +44,8 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
-                    <h3 class="modal-title text-white">Reserve a Campsite</h3>
+                <div class="modal-header">
+                    <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -79,14 +78,14 @@
                                         <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked>
                                         Tent
                                     </label>
-                                    <label class="btn btn-primary">
+                                    <label class="btn blue-button">
                                         <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
                                     </label>
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <div class="col">
-                                    <button class="btn btn-primary" type="button" data-dismiss="modal">Cancel</button>
+                                    <button class="btn blue-button" type="button" data-dismiss="modal">Cancel</button>
                                     <button class="btn btn-danger" type="submit">Search</button>
                                 </div>
                             </div>
@@ -114,7 +113,7 @@
                                 class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> login
                     </a>
                 </span>

@@ -3,7 +3,10 @@ $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
+$color-reserve-modal-header: rgb(166, 94, 202);
+$color-login-modal-header: rgb(139, 204, 99);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-button-blue: rgb(63, 156, 218);
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -118,4 +121,27 @@ header {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-reserve-modal-header;
+    }
+    h3 {
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-login-modal-header;
+    }
+    h3 {
+        color: white;
+    }
+}
+
+.blue-button {
+    background-color: $color-button-blue;
+    color: white;
 }
